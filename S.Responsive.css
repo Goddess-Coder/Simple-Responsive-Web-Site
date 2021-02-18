@@ -1,0 +1,75 @@
+/* entire page */
+*{
+    font-family: Gotham-Rounded-Book;
+}
+/* container */
+.container{
+    margin: 10px 30px;
+}
+
+/* phone display  */
+@media only screen and (max-width:480px) {
+    h1{
+        background-color: #b3b3b3;
+        border: 1px solid #b8ae8d;
+    }
+    p{
+        background-color: #cccccc;
+        border: 1px solid #b8ae8d;
+    }
+    .desktop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .phone{
+        border: 1px solid #dacf8b;
+        background-color: #fffb9a;
+    }
+}
+/* tablet display  */
+@media only screen and (min-width:481px) and (max-width:1023px){
+    h1{
+        background-color: #b3b3b3;
+        border: 1px solid #b8ae8d;
+    }
+    p{
+        background-color: #cccccc;
+        border: 1px solid #b8ae8d;
+    }
+    .desktop{
+        display:none;
+    }
+    .phone{
+        display:none;
+    }
+    .tablet{
+        border: 1px solid #dacf8b;
+        background-color: #fffb9a;
+    }
+}
+/* desktop display  */
+@media only screen and (min-width:1024px) {
+    h1{
+        background-color: #b3b3b3;
+        border: 1px solid #b8ae8d;
+    }
+    p{
+        background-color: #cccccc;
+        border: 1px solid #b8ae8d;
+    }
+    .tablet{
+        display:none;
+    }
+    .phone{
+        display:none;
+    }
+    .desktop{
+        border: 1px solid #dacf8b;
+        background-color: #fffb9a;
+    }
+}
+span{
+    font-weight: bold;
+}
